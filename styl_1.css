@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+header, footer{
+    background-color: #00838F;
+    font-size: 130%;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+#test{
+    display: flex;
+}
+#lewo{
+    background-color: #efefef;
+    width: 55%;
+    max-height: 450px;
+}
+#lewo1{
+    height: 150px;
+}
+#lewo2{
+    
+    height: 300px;
+}
+#prawo{
+    background-color: #4fb3bf;
+    width: 45%;
+    height: 450px;
+    text-align: center;
+    
+}
+img{
+    box-shadow: 10px 10px 7px dimgray;
+    margin: 20px;
+}
+
+table{
+    margin: auto;
+    width: 80%;
+}
+tr:hover{
+    background-color:   #4fb3bf
+}
+tr,td{
+    padding: 4px;
+}
+table,tr,td{
+    border: solid;
+    border-color: #4fb3bf;
+    border-width: 1px;
+    border-collapse: collapse;
+
+}
